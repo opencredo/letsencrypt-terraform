@@ -70,8 +70,8 @@ export TF_VAR_demo_acme_challenge_aws_region=$AWS_DEFAULT_REGION
 * Run terraform
 ````
 terraform get
-terraform plan -out letf-demo.plan 
-terraform apply -input letf-demo.plan
+terraform plan 
+terraform apply
 ````
 
 * Verify
