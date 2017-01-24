@@ -38,7 +38,7 @@ cd demos/acme-consolidated
 
 
 * Configure variables
-Within the `demos/acme-consolidated/variables.tf` file, change to configure your domain, and point at the appropriate Let's Encrypt server. (staging or production)
+Within the `demos/acme-consolidated/variables.tf` file, change to configure to point to your domain (i.e. not example.com), and point at the appropriate Let's Encrypt server. (staging or production)
 
 ````
 # -- Staging
@@ -46,8 +46,8 @@ variable "demo_acme_server_url"          { default = "https://acme-staging.api.l
 variable "demo_acme_registration_email"  { default = "your-email@example.com" }
 
 # Domain against which certificate will be created
-# i.e. letsencrypt-terraform.ocdemo.net
-variable "demo_domain_name"              { default = "ocdemo.net"}
+# i.e. letsencrypt-terraform.example.com
+variable "demo_domain_name"              { default = "example.com"}
 variable "demo_domain_subdomain"         { default = "letsencrypt-terraform"}
 ````
 

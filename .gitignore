@@ -1,0 +1,9 @@
+**/terraform.tfvars
+**/.terraform
+
+# This demo will more than likely contain sensitive data in the local
+# terraform state files. We ignore it just incase this is commited
+# by accident 
+**/terraform.tfstate*
+**/*.key
+**/*.pem
