@@ -1,5 +1,8 @@
 # Let's Encrypt Terraform example
 
+> [!NOTE]
+> This repo has been archived and is no longer under development. OpenCredo is now part of [Trifork](https://github.com/trifork).
+
 This repository houses the source code referenced in the blog [Let's Encrypt and Terraform - Getting free certificates for your infrastructure](https://opencredo.com/letsencrypt-terraform). It demonstrates a working example of leveraging the [Terraform ACME provider](https://github.com/paybyphone/terraform-provider-acme) to generate and install a free Let's Encrypt certificate on an AWS ELB, fronting some EC2 instances with NGINX on them. Please see the blog for more details / instructions.
 
 
